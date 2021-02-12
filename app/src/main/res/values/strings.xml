@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Pult33</string>
+    <string name="НАЗВАНИЕ">Pult3.3</string>
+    <string name="Назад">НАЗАД</string>
+    //ЭКРАН 1
+    <string name="СВЕТ">СВЕТ</string>
+    <string name="ДИСКОH">ДИСКОHead</string>
+    <string name="ДИСКОB">ДИСКОBall</string>
+    <string name="ЗВУК">ЗВУК</string>
+    <string name="РАДИВО">РАДИВО</string>
+    <string name="Коннект">Коннект</string>
+    <string name="Выход">ВЫХОД</string>
+    //ВКЛАДКА СВЕТ
+    <string name="Seek1_1">БАЛКОН</string>
+    <string name="Seek1_2">КОМНАТА</string>
+    <string name="Seek1_3">ДОП1</string>
+    <string name="Seek1_4">ДОП2</string>
+    //ВКЛАДКА УСИЛОК
+    <string name="button2_1">ГРОМЧЕ</string>VolumeMinus
+    <string name="button2_2">ТИШЕ</string>VolumePlus
+    <string name="button2_3">БАС+</string>BassMinus
+    <string name="button2_4">БАС-</string>BassPlus
+    <string name="button2_5">ВЧ+</string>TrebleMinus
+    <string name="button2_6">ВЧ-</string>TreblePlus
+    <string name="button2_7">БЛЮТУЗ СТЕРЕО</string>Input1Stereo
+    <string name="button2_8">РАДИО СТЕРЕО</string>Input2Stereo
+    <string name="button2_9">БЛЮТУЗ СЮРРАУНД</string>Input1Surround
+    <string name="button2_10">РАДИО СЮРРАУНД</string>Input2Surround
+    <string name="button2_11">ЛЕВЕЕ</string>BalanseLeft
+    <string name="button2_12">ПРАВЕЕ</string>BalanseRight
+    //ВКЛАДКА РАДИВО
+    <string name="button3_1">ПОИСК+</string>RDFrb
+    <string name="button3_2">ПОИСК-</string>RDFrf
+    <string name="button3_3">ЧСТ+</string>RDBack
+    <string name="button3_4">ЧСТ-</string>RDForw
+    <string name="button3_5">ГРОМЧЕ</string>RDVolb
+    <string name="button3_6">ТИШЕ</string>RDVolf
+    <string name="button3_7">КАНАЛ+</string>RDCHb
+    <string name="button3_8">КАНАЛ-</string>RDCHf
+    <string name="Spinner3_1">ВЫБОР РАДИОСТАНЦИИ</string>RDCHf
+    //Массив Радиотанций
+    <string-array name="Radiostations">
+        <item>Дорожное радио</item>
+        <item>Ретро FM</item>
+        <item>Авторадио</item>
+        <item>Радио Юмор FM</item>
+        <item>Радио Вести FM</item>
+        <item>Радио Зенит</item>
+        <item>Радио Эрмитаж</item>
+        <item>Радио для двоих</item>
+        <item>Новое Радио</item>
+        <item>Радио Эхо Петербурга</item>
+        <item>Комсомольская правда</item>
+        <item>Радио Хит FM</item>
+        <item>IZ.ru (звук)</item>
+        <item>Радио Energy</item>
+        <item>Studio 21</item>
+        <item>Comedy Radio</item>
+        <item>Радио Дача</item>
+        <item>Royal Radio</item>
+        <item>Радио России С.-Петербург FM</item>
+        <item>Радио Популярная классика</item>
+        <item>Радио Европа Плюс</item>
+        <item>Радио Питер FM</item>
+        <item>Эльдорадио</item>
+        <item>Радио Страна FM</item>
+        <item>Radio METRO</item>
+        <item>Радио Максимум</item>
+        <item>Радио DFM</item>
+        <item>Детское радио</item>
+        <item>НАШЕ Радио</item>
+        <item>Радио Шансон</item>
+        <item>IZ.ru (звук)</item>
+        <item>Love Радио</item>
+        <item>Радио Монте-Карло</item>
+        <item>Радио Рекорд</item>
+        <item>Радио Маяк</item>
+        <item>Радио Business FM</item>
+        <item>Русское Радио</item>
+
+    </string-array>
+    //ВКЛАДКА ДИСКОHEAD
+    <string name="DmxDiscoHead1">МИГАЛКА</string>
+    <string name="DmxDiscoHead2">КРАСНЫЙ/СИНИЙ</string>
+    <string name="DmxDiscoHead3">ЗЕЛЕНЫЙ/РОЗОВЫЙ</string>
+    <string name="DmxDiscoHead4">ЖЕЛТЫЙ/БЕЛЫЙ</string>
+    <string name="DmxDiscoHead5">МОТОР</string>
+    <string name="DmxDiscoHead6">РЕЖИМЫ</string>
+    //ВКЛАДКА ДИСКОBALL
+    <string name="DiscoBall1">РЕЖИМ</string>
+    <string name="DiscoBall2">МОТОР</string>
+    <string name="DiscoBall3">КРАСНЫЙ</string>
+    <string name="DiscoBall4">ЗЕЛЕНЫЙ</string>
+    <string name="DiscoBall5">СИНИЙ</string>
+    <string name="DiscoBall6">ФЕЙДЕР</string>
+
+</resources>

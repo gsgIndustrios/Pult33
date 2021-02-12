@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Light_Activity">
+
+    <ImageView
+        android:id="@+id/deskL"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/НАЗВАНИЕ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/name_Label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif"
+        android:text="@string/НАЗВАНИЕ"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="@id/deskL"
+        app:layout_constraintTop_toTopOf="@id/deskL" />
+
+    <Button
+        android:id="@+id/ButBackL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TextLightB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/biorhyme_bold"
+        android:text="@string/Seek1_1"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@+id/seekB"
+        app:layout_constraintStart_toStartOf="@+id/seekB"
+        app:layout_constraintTop_toBottomOf="@+id/name_Label" />
+
+    <TextView
+        android:id="@+id/TextLightR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/biorhyme_bold"
+        android:text="@string/Seek1_2"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@+id/seekR"
+        app:layout_constraintStart_toStartOf="@+id/seekR"
+        app:layout_constraintTop_toBottomOf="@+id/ButLightB" />
+
+    <TextView
+        android:id="@+id/TextLight1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/biorhyme_bold"
+        android:text="@string/Seek1_3"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@+id/seek1"
+        app:layout_constraintStart_toStartOf="@+id/seek1"
+        app:layout_constraintTop_toBottomOf="@+id/ButLightR" />
+
+    <TextView
+        android:id="@+id/TextLight2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/biorhyme_bold"
+        android:text="@string/Seek1_4"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@+id/seek2"
+        app:layout_constraintStart_toStartOf="@+id/seek2"
+        app:layout_constraintTop_toBottomOf="@+id/ButLight1" />
+
+    <SeekBar
+        android:id="@+id/seekB"
+        style="@android:style/Widget.Holo.Light.SeekBar"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:max="100"
+        android:progress="100"
+        app:layout_constraintBottom_toBottomOf="@+id/ButLightB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toEndOf="@+id/ButLightB"
+        app:layout_constraintTop_toBottomOf="@+id/TextLightB" />
+
+    <SeekBar
+        android:id="@+id/seekR"
+        style="@android:style/Widget.Holo.Light.SeekBar"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:max="100"
+        android:progress="100"
+        app:layout_constraintBottom_toBottomOf="@+id/ButLightR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ButLightR"
+        app:layout_constraintTop_toBottomOf="@+id/TextLightR" />
+
+    <SeekBar
+        android:id="@+id/seek1"
+        style="@android:style/Widget.Holo.Light.SeekBar"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:max="100"
+        android:progress="100"
+        app:layout_constraintBottom_toBottomOf="@+id/ButLight1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ButLight1"
+        app:layout_constraintTop_toBottomOf="@+id/TextLight1" />
+
+    <SeekBar
+        android:id="@+id/seek2"
+        style="@android:style/Widget.Holo.Light.SeekBar"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:max="100"
+        android:progress="100"
+        app:layout_constraintBottom_toBottomOf="@+id/ButLight2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ButLight2"
+        app:layout_constraintTop_toBottomOf="@+id/TextLight2" />
+
+    <ToggleButton
+        android:id="@+id/ButLightB"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/biorhyme_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TextLightB" />
+
+    <ToggleButton
+        android:id="@+id/ButLightR"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/biorhyme_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TextLightR" />
+
+    <ToggleButton
+        android:id="@+id/ButLight1"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/biorhyme_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TextLight1" />
+
+    <ToggleButton
+        android:id="@+id/ButLight2"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/biorhyme_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TextLight2" />
+</android.support.constraint.ConstraintLayout>
